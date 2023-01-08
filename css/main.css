@@ -1,0 +1,53 @@
+:root{
+    --primary-color:#0a1118; 
+    --primary-color-highlight: #233D54;
+    --bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+a { 
+    color: white; 
+}
+a:hover { 
+    color: var(--primary-color); 
+}
+
+body {
+    position: relative;
+  }
+
+
+.hero{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    /*height: 85vh;*/
+}
+
+
+.profile-img img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+.card-img-top{
+max-height: 20vh;
+object-fit: cover;
+}
+
+.card-body{
+    height: ;
+}
+
+#aboutMe{
+    min-height: 100vh;
+    background-color: rgb(201, 179, 198)
+}
+
+#footer{
+  background-color: var(--primary-color-highlight);
+
+}
+
