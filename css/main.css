@@ -1,7 +1,7 @@
 :root{
     --primary-color:#0a1118; 
     --primary-color-highlight: #233D54;
-    --bs-body-font-family: 'Montserrat', sans-serif;
+    --bs-body-font-family:'Source Code Pro', monospace;
 }
 
 a { 
@@ -17,7 +17,7 @@ body {
 
 
 .hero{
-    background-color: antiquewhite;
+   
     min-height: 100vh;
     /*height: 85vh;*/
 }
@@ -35,7 +35,10 @@ body {
 .card-img-top{
 max-height: 20vh;
 object-fit: cover;
+opacity: .5;
 }
+
+
 
 .card-body{
     height: ;
