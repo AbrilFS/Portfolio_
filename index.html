@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
     
     <!--Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -47,18 +48,33 @@
 <!--/Navbar-->
 
 <!--Hero-->
-<section id="home" class="hero container-fluid d-flex align-items-center">
+<section id="home" class="hero container-fluid d-flex align-items-center justify-content-center">
  
-    <div class="row mt-5">
-      <div class="col-7">
-        <div class="text text-opacity-75">
-            <p class="hero__heading fs-1 fw-bold">ABRIL FLORES </p>
-            <p class="lead mb-3">FRONTEND DEVELOPER  👾</p>
-            <a download="#" class="btn-catalogo mt-2 btn btn-lg btn-outline-light" role="button">Download CV</a>
-        </div>
-      </div>
-      <div class="col profile-img ">
+    <div class="row mt-3">
+      <div class="col-12 profile-img text-center">
         <img src="./css/img/45B641B2-13E1-4A4F-A882-3AC3C64FC276.JPG" alt="">
+      </div>
+      <div class="col-12 mt-4">
+        <div class="text-container text-center">
+            <p class="titles fw-bold display-3">ABRIL FLORES </p>
+            <p class="ocupation mb-3 fs-2">FRONTEND DEVELOPER  👾</p>
+            <a download="#" class="btn-catalogo mt-2 mb-2 btn btn-lg btn-outline-dark" role="button">Download CV</a>
+            <div class="icons-container d-flex justify-content-center pt-2">
+              <a href="#" class="btn btn-hero" alt="LinkedIn" >
+                <i class="bi bi-linkedin fs-3"></i>
+               </a>
+              <a href="#" class="btn" alt="GitHub">
+                <i class="bi bi-github fs-3"></i>
+              </a>
+              <a href="#" class="btn" alt="Medium">
+                <i class="bi bi-medium fs-3"></i>
+              </a>
+              <a href="#" class="btn" alt="Twitter">
+                <i class="bi bi-twitter fs-3"></i>
+              </a>
+            </div>
+            
+        </div>
       </div>
     </div>
 
@@ -72,17 +88,31 @@
 <!--About Me-->
 
 <section>
-  <div id="aboutMe"  class="container-fluid">
-    <div class="row">
+  <div id="aboutMe"  class="container-fluid px-4">
+    <div class="row p-4">
       <div class="col gy-5 p-4">
-        <h3>About Me</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium veritatis, alias consequatur veniam atque eos earum repudiandae, iure illum nisi laboriosam cum molestias qui necessitatibus nulla tenetur sit velit. Unde, ratione quos iusto praesentium inventore iure excepturi consequatur enim nihil quasi nisi, quis illum at tempore suscipit amet architecto!</p>
+        <h3 class="titles fs-2 fw-bold my-4">About Me</h3>
+        <h5 class="mb-4 fs-5">Hi!👋</h5>
+          <p class="fs-5">I'm a Frontend Developer Junior, <br> a self taught programmer, and an enthusiast about technology,code,music and art.<br>
+          </p>
+          <p class="fs-5">
+            I'm always trying to learn new things and searching to improve my knowledge in frontend technologies like JS, CSS and some libraries and frameworks. Currently taking my first steps in Angular and UX.
+            
+          </p>  
       </div>
     </div>
-    <div class="row">
+    <div class="row p-4">
       <div class="col gy-4 p-4">
-        <h3>Skills & Tools</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium veritatis, alias consequatur veniam atque eos earum repudiandae, iure illum nisi laboriosam cum molestias qui necessitatibus nulla tenetur sit velit. Unde, ratione quos iusto praesentium inventore iure excepturi consequatur enim nihil quasi nisi, quis illum at tempore suscipit amet architecto!</p>
+        <h4 class="fs-4 fw-semibold">My Toolbox 🔨</h4>
+        <p class="fs-5 fs-sm-0">The skills, tools and technologies I use for my projects:</p>
+        <div class="row row-tools d-flex justify-content-center">
+          <img src="./css/img/html5-svgrepo-com.svg" alt="HTML">
+          <img src="./css/img/css3-svgrepo-com.svg" alt="CSS">
+          <img src="./css/img/javascript-svgrepo-com.svg" alt="JavaScript">
+          <img src="./css/img/angular-svgrepo-com.svg" alt="Angular">
+          <img src="./css/img/git-svgrepo-com.svg" alt="Git">
+          <img src="./css/img/github-svgrepo-com.svg" alt="GitHub">
+        </div>
       </div>
   </div>
 </section>
@@ -94,7 +124,7 @@
 <section id="projects" class="container">
   <div class="row mb-0">
     <div class="col gy-3 pt-5 pb-3 pb-0">
-      <h3 class="fw-bold">PROJECTS</h3>
+      <h3 class="titles fs-2 fw-bold">PROJECTS</h3>
     </div>
   </div>
   <div class="row">
