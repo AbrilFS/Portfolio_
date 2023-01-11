@@ -37,10 +37,10 @@
       <div class="navbar-nav ms-auto"> <!--"ms auto" funciona para dirigir el menú a la derecha/ me-auto sería para la derecha-->
         <a class="nav-link" aria-current="page" href="#home">Home</a>
         <a class="nav-link" href="#aboutMe">
-          About me
+          About
         </a>
         <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link disabled" href="#blog" tabindex="-1" aria-disabled="true">Blog</a>
+        <a class="nav-link" href="https://medium.com/@abril.nzky77" target="_blank" tabindex="-1" aria-disabled="true">Blog</a>
       </div>
     </div>
   </div>
@@ -52,35 +52,31 @@
  
     <div class="row mt-3">
       <div class="col-12 profile-img text-center">
-        <img src="./css/img/45B641B2-13E1-4A4F-A882-3AC3C64FC276.JPG" alt="">
+        <img src="./css/img/IMG_8316 2.jpg" alt="">
       </div>
       <div class="col-12 mt-4">
         <div class="text-container text-center">
             <p class="titles fw-bold display-3">ABRIL FLORES </p>
             <p class="ocupation mb-3 fs-2">FRONTEND DEVELOPER  👾</p>
-            <a download="#" class="btn-catalogo mt-2 mb-2 btn btn-lg btn-outline-dark" role="button">Download CV</a>
+            <a href="https://drive.google.com/file/d/1met69s2jwrPLCLRcsRH2QarggZoutvRM/view?usp=sharing" class="btn-hero mt-2 mb-2 btn btn-lg btn-outline-dark" role="button" target="_blank">Download CV</a>
             <div class="icons-container d-flex justify-content-center pt-2">
-              <a href="#" class="btn btn-hero" alt="LinkedIn" >
-                <i class="bi bi-linkedin fs-3"></i>
+              <a href="https://www.linkedin.com/in/abril-flores-silva-9a3242b3/" target="_blank" class="btn " alt="LinkedIn" >
+                <i class="bi bi-linkedin btn-hero fs-3"></i>
                </a>
-              <a href="#" class="btn" alt="GitHub">
-                <i class="bi bi-github fs-3"></i>
+              <a href="https://github.com/AbrilFS" target="_blank" class="btn" alt="GitHub">
+                <i class="bi bi-github btn-hero fs-3"></i>
               </a>
-              <a href="#" class="btn" alt="Medium">
-                <i class="bi bi-medium fs-3"></i>
+              <a href="https://medium.com/@abril.nzky77" target="_blank" class="btn" alt="Medium">
+                <i class="bi bi-medium btn-hero fs-3"></i>
               </a>
               <a href="#" class="btn" alt="Twitter">
-                <i class="bi bi-twitter fs-3"></i>
+                <i class="bi bi-twitter btn-hero fs-3"></i>
               </a>
             </div>
             
         </div>
       </div>
     </div>
-
-
-
-
 </section>
 
 <!--/Hero-->
@@ -88,11 +84,11 @@
 <!--About Me-->
 
 <section>
-  <div id="aboutMe"  class="container-fluid px-4">
+  <div id="aboutMe"  class="container-fluid container-aboutme">
     <div class="row p-4">
-      <div class="col gy-5 p-4">
-        <h3 class="titles fs-2 fw-bold my-4">About Me</h3>
-        <h5 class="mb-4 fs-5">Hi!👋</h5>
+      <div class="col gy-5">
+        <h3 class="titles fs-2 fw-bold my-4">ABOUT</h3>
+        <h4 class="mb-4">Hi!👋</h4>
           <p class="fs-5">I'm a Frontend Developer Junior, <br> a self taught programmer, and an enthusiast about technology,code,music and art.<br>
           </p>
           <p class="fs-5">
@@ -102,8 +98,8 @@
       </div>
     </div>
     <div class="row p-4">
-      <div class="col gy-4 p-4">
-        <h4 class="fs-4 fw-semibold">My Toolbox 🔨</h4>
+      <div class="col gy-4">
+        <h4 class="fs-4 fw-semibold">My Toolbox <i class="bi bi-wrench-adjustable-circle"></i></h4>
         <p class="fs-5 fs-sm-0">The skills, tools and technologies I use for my projects:</p>
         <div class="row row-tools d-flex justify-content-center">
           <img src="./css/img/html5-svgrepo-com.svg" alt="HTML">
@@ -132,12 +128,13 @@
       <div class="card h-100">
         <img src="./css/img/capt1.png" class="card-img-top" alt="img1">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <span class="badge bg-light text-dark">HTML</span>
+          <h5 class="card-title fw-bold">Card title</h5>
+          <span class="badge bg-dark">HTML</span>
           <span class="badge bg-dark">CSS</span>
           <span class="badge bg-dark">JavaScript</span>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary"><i class="bi bi-eye-fill"></i></a>
+          <p class="card-text">In this course, I had the opportunity to learn to connect JavaScript with HTML, manipulate the DOM, and also how to deploy projects with GitHub Pages.</p>
+          <a href="https://abrilfs.github.io/curso-practico-javascript/fusion.html"  target="_blank" class="btn btn-eye btn-outline-dark"><i class="bi bi-eye-fill"></i></a>
+          <a href="https://github.com/AbrilFS/curso-practico-javascript" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
         </div>
       </div>
     </div>
@@ -146,11 +143,12 @@
       <div class="card h-100">
         <img src="./css/img/capt2.png" class="card-img-top" alt="img2">
         <div class="card-body">
-          <h5 class="card-title">Google Clone</h5>
+          <h5 class="card-title fw-bold">Google Clone</h5>
           <span class="badge bg-dark">HTML</span>
           <span class="badge bg-dark">CSS</span>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary"><i class="bi bi-eye-fill"></i></a>
+          <p class="card-text">In this course, I made a Google Homepage Clone and the web layout of an online shop using Responsive Design.</p>
+          <a href="https://abrilfs.github.io/GoogleClone/index.html" target="_blank" class="btn btn-eye btn-outline-dark" ><i class="bi bi-eye-fill"></i></a>
+          <a href="https://github.com/AbrilFS/GoogleClone" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
         </div>
       </div>
     </div>
@@ -159,11 +157,16 @@
       <div class="card h-100">
         <img src="./css/img/capt3.png" class="card-img-top" alt="img3">
         <div class="card-body">
-          <h5 class="card-title">Music Store</h5>
-          <span class="badge bg-light text-dark">HTML</span>
+          <h5 class="card-title fw-bold">Music Store</h5>
+          <span class="badge bg-dark">HTML</span>
           <span class="badge bg-dark">CSS</span>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">I made a  design of a music web store using Bootstrap.
+            <br>
+            <br>
+            
+            <br>
+          </p>
+          <a href="https://github.com/AbrilFS/MusicStore" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
         </div>
       </div>
     </div>
@@ -172,25 +175,16 @@
       <div class="card h-100" >
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <span class="badge bg-light text-dark">HTML</span>
+          <h5 class="card-title fw-bold">API Michis</h5>
+          <span class="badge bg-dark">HTML</span>
           <span class="badge bg-dark">CSS</span>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <span class="badge bg-dark">JavaScript</span>
+          <p class="card-text">Currently working on an API, where you can see a collection of cats and save your favoutite image!</p>
+          <a href="https://github.com/AbrilFS/APIRest" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
         </div>
       </div>
     </div>
 
-    <div class="col-md-4 mb-4">
-      <div class="card h-100">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <span class="badge bg-light text-dark">HTML</span>
-          <span class="badge bg-dark">CSS</span>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
       </div>
     </div>
     
@@ -204,17 +198,10 @@
 
 <!--Footer-->
 <footer id="footer" class="pb-2 pt-2">
-  <div class="container d-sm-flex justify-content-sm-center justify-content-md-end">
+  <div class="container d-sm-flex justify-content-center">
     <div class="row">
-      <div class="col">
-        <a href="">LinkedIn</a>
-      </div>
-      <div class="col">
-        <a href="">Medium</a>
-      </div>
-      <div class="col" >
-        <a href="">GitHub</a>
-      </div>
+     <p class="footer-text text-white">
+      © Copyright 2023.Abrilnzky </p>
     </div>
   </div>
 </footer>
