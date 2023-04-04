@@ -2,17 +2,18 @@
 
 
 :root{
-    --primary-color: #261C24; 
-    --bs-body-font-family:'Source Code Pro', monospace;
-    --bs-body-second-font-family:'Mulish', sans-serif;
+    --primary-color: #333333; 
+    --secundary-color: #757575;
+    --bs-body-font-family: 'Lato', sans-serif;
     --second-color: #A1838B;
-    --third-color: #CF8D9B;
+    --third-color: #895fb8;
     --fourth-color:#E2A391;
+    --whites: #FFF;
 }
 
-/*html {
-    font-size: 62.5%;
-}*//
+html {
+    font-family: var(--bs-body-font-family);
+}
 
 
 
@@ -21,27 +22,38 @@ body {
   }
 
 .nav-link{
-    color:var(--third-color);
+    color: var(--secundary-color)
 }
 
 
 
 .hero{
     min-height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 .btn-hero:hover{
     color: var(--third-color);
 }
 
+
+
 #aboutMe{
     min-height: 100vh;
-    background-color: var(--third-color);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: var(--primary-color);
+
 }
 
 .titles{
- font-family: var(--bs-body-second-font-family);
- color: var(--primary-color;)
+    color: var(--primary-color);
+    line-height: 1.2;
+    letter-spacing: -0.06em;
+}
+ 
+.ocupation{
+ color: var(--secundary-color);
+ line-height: 1.3;   
 }
 
 .btn-hero i:hover{
