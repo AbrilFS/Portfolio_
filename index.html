@@ -20,175 +20,187 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbar">
 
+
+<body>
 <!--Navbar-->
 <!--Con "fixed-top" dejamos posicionado un elemento en el top del viewport-->
-<nav data-bs-spy="scroll" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">     
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" 
-    type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto"> <!--"ms auto" funciona para dirigir el menú a la derecha/ me-auto sería para la derecha-->
-        <a class="nav-link" aria-current="page" href="#home">Home</a>
-        <a class="nav-link" href="#aboutMe">
-          About
-        </a>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="https://medium.com/@abril.nzky77" target="_blank" tabindex="-1" aria-disabled="true">Blog</a>
+  <nav data-bs-spy="scroll" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">     
+    <div class="container d-flex">
+      <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" 
+                  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto"> <!--"ms auto" funciona para dirigir el menú a la derecha/ me-auto sería para la derecha-->
+          <a class="nav-link" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#aboutMe">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="https://medium.com/@abril.nzky77" target="_blank" tabindex="-1" aria-disabled="true">Blog</a>
+          </div>
+      </div>
+    </div>
+  
+  </nav>
+
+<!--/Navbar-->
+
+
+<div class="container-main">
+<!--Hero-->
+  <section id="home" class="hero container-fluid d-flex justify-content-around align-items-center">
+    <div class="row mt-1 pt-1">
+      <div class="col-7 mt-1">
+        <div class="text-container text-center">
+          <p class="titles mb-0 fw-bold display-1"> Hi, I'm Abril  </p>
+          <p class="ocupation fw-regular mb-4 display-5"> Frontend Developer </p>
+          <a href="https://drive.google.com/file/d/13g3u_GVIDdOZ0EHIGLlRRJ4DnAOr9CHq/view?usp=sharing" class="btn-hero mt-2 mb-2 btn btn-lg btn-outline-dark" role="button" target="_blank">Download CV</a>
+          <div class="icons-container d-flex justify-content-center pt-2">
+            <a href="https://www.linkedin.com/in/abrilfs/" target="_blank" class="btn " alt="LinkedIn" >
+              <i class="bi bi-linkedin btn-hero fs-3"></i>
+            </a>
+            <a href="https://github.com/AbrilFS" target="_blank" class="btn" alt="GitHub">
+              <i class="bi bi-github btn-hero fs-3"></i>
+            </a>
+            <a href="https://medium.com/@abril.nzky77" target="_blank" class="btn" alt="Medium">
+              <i class="bi bi-medium btn-hero fs-3"></i>
+            </a>
+            <a href="#" class="btn" alt="Twitter">
+              <i class="bi bi-twitter btn-hero fs-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4  profile-img">
+          <img class="" src="./css/img/IMG_8316 2.jpg" alt="">
+      </div>
+          
       </div>
     </div>
   </div>
-</nav>
-<!--/Navbar-->
 
-<!--Hero-->
-<section id="home" class="hero container-fluid d-flex align-items-center justify-content-center">
- 
-    <div class="row mt-3">
-      <div class="col-12 profile-img text-center">
-        <img src="./css/img/IMG_8316 2.jpg" alt="">
-      </div>
-      <div class="col-12 mt-4">
-        <div class="text-container text-center">
-            <p class="titles fw-bold display-1"> { Abril Flores } </p>
-            <p class="ocupation fw-regular mb-4 display-3"> Frontend Developer </p>
-            <a href="https://drive.google.com/file/d/13g3u_GVIDdOZ0EHIGLlRRJ4DnAOr9CHq/view?usp=sharing" class="btn-hero mt-2 mb-2 btn btn-lg btn-outline-dark" role="button" target="_blank">Download CV</a>
-            <div class="icons-container d-flex justify-content-center pt-2">
-              <a href="https://www.linkedin.com/in/abrilfs/" target="_blank" class="btn " alt="LinkedIn" >
-                <i class="bi bi-linkedin btn-hero fs-3"></i>
-               </a>
-              <a href="https://github.com/AbrilFS" target="_blank" class="btn" alt="GitHub">
-                <i class="bi bi-github btn-hero fs-3"></i>
-              </a>
-              <a href="https://medium.com/@abril.nzky77" target="_blank" class="btn" alt="Medium">
-                <i class="bi bi-medium btn-hero fs-3"></i>
-              </a>
-              <a href="#" class="btn" alt="Twitter">
-                <i class="bi bi-twitter btn-hero fs-3"></i>
-              </a>
-            </div>
-            
-        </div>
-      </div>
-    </div>
+
+  <div class="custom-shape-divider-bottom-1681344536">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
 </section>
+
 
 <!--/Hero-->
 
 <!--About Me-->
 
 <section>
-  <div id="aboutMe"  class="container-fluid container-aboutme">
-    <div class="row p-4">
-      <div class="col gy-5">
-        <h3 class="titles fw-regular display-2">About</h3>
-        <h4 class="hello-world mb-4 fs-3">Hello World!👋</h4>
-          <p class="fs-5">I'm a Junior Frontend Developer, <br> a self taught programmer, and an enthusiast about technology,code,music and art.<br>
-          </p>
-          <p class="fs-5">
-            I'm always trying to learn new things and searching to improve my knowledge in frontend technologies like JS, CSS and some libraries and frameworks. Currently taking my first steps in Angular and UX.
-            
-          </p>  
+<div id="aboutMe"  class="container-fluid container-aboutme">
+  <div class="row p-4">
+    <div class="col gy-5">
+      <h3 class="titles fw-regular display-2">About</h3>
+      <h4 class="mb-4 fs-3">Hello World!👋</h4>
+        <p class="fs-5">I'm a Junior Frontend Developer, <br> a self taught programmer, and an enthusiast about technology,code,music and art.<br>
+        </p>
+        <p class="fs-5">
+          I'm always trying to learn new things and searching to improve my knowledge in frontend technologies like JS, CSS and some libraries and frameworks. Currently taking my first steps in Angular and UX.
+          
+        </p>  
+    </div>
+  </div>
+  <div class="row p-4">
+    <div class="col gy-4">
+      <h4 class="fs-4 fw-semibold">My Toolbox <i class="bi bi-wrench-adjustable-circle"></i></h4>
+      <p class="fs-5 fs-sm-0">The skills, tools and technologies I use for my projects:</p>
+      <div class="row row-tools d-flex justify-content-center">
+        <img class="logo" src="./css/img/html5-svgrepo-com.svg" alt="HTML">
+        <img class="logo" src="./css/img/css3-svgrepo-com.svg" alt="CSS">
+        <img class="logo" src="./css/img/javascript-svgrepo-com.svg" alt="JavaScript">
+        <img class="logo" src="./css/img/angular-svgrepo-com.svg" alt="Angular">
+        <img class="logo" src="./css/img/git-svgrepo-com.svg" alt="Git">
+        <img class="logo" src="./css/img/github-svgrepo-com.svg" alt="GitHub">
       </div>
     </div>
-    <div class="row p-4">
-      <div class="col gy-4">
-        <h4 class="fs-4 fw-semibold">My Toolbox <i class="bi bi-wrench-adjustable-circle"></i></h4>
-        <p class="fs-5 fs-sm-0">The skills, tools and technologies I use for my projects:</p>
-        <div class="row row-tools d-flex justify-content-center">
-          <img src="./css/img/html5-svgrepo-com.svg" alt="HTML">
-          <img src="./css/img/css3-svgrepo-com.svg" alt="CSS">
-          <img src="./css/img/javascript-svgrepo-com.svg" alt="JavaScript">
-          <img src="./css/img/angular-svgrepo-com.svg" alt="Angular">
-          <img src="./css/img/git-svgrepo-com.svg" alt="Git">
-          <img src="./css/img/github-svgrepo-com.svg" alt="GitHub">
-        </div>
-      </div>
-  </div>
+</div>
 </section>
+
 
 <!--/About Me-->
 
 <!--Projects-->
-
 <section id="projects" class="container">
-  <div class="row mb-0">
-    <div class="col gy-3 pt-5 pb-3 pb-0">
-      <h3 class="titles fw-regular display-3">Projects</h3>
+<div class="row mb-0">
+  <div class="col gy-3 pt-5 pb-3 pb-0">
+    <h3 class="titles fw-regular display-3">Projects</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="./css/img/capt1.png" class="card-img-top" alt="img1">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Card title</h5>
+        <span class="badge bg-dark">HTML</span>
+        <span class="badge bg-dark">CSS</span>
+        <span class="badge bg-dark">JavaScript</span>
+        <p class="card-text">In this course, I had the opportunity to learn to connect JavaScript with HTML, manipulate the DOM, and also how to deploy projects with GitHub Pages.</p>
+        <a href="https://abrilfs.github.io/curso-practico-javascript/fusion.html"  target="_blank" class="btn btn-eye btn-outline-dark"><i class="bi bi-eye-fill"></i></a>
+        <a href="https://github.com/AbrilFS/curso-practico-javascript" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="card h-100">
-        <img src="./css/img/capt1.png" class="card-img-top" alt="img1">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Card title</h5>
-          <span class="badge bg-dark">HTML</span>
-          <span class="badge bg-dark">CSS</span>
-          <span class="badge bg-dark">JavaScript</span>
-          <p class="card-text">In this course, I had the opportunity to learn to connect JavaScript with HTML, manipulate the DOM, and also how to deploy projects with GitHub Pages.</p>
-          <a href="https://abrilfs.github.io/curso-practico-javascript/fusion.html"  target="_blank" class="btn btn-eye btn-outline-dark"><i class="bi bi-eye-fill"></i></a>
-          <a href="https://github.com/AbrilFS/curso-practico-javascript" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
-        </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="./css/img/capt2.png" class="card-img-top" alt="img2">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Google Clone</h5>
+        <span class="badge bg-dark">HTML</span>
+        <span class="badge bg-dark">CSS</span>
+        <p class="card-text">In this course, I made a Google Homepage Clone and the web layout of an online shop using Responsive Design.</p>
+        <a href="https://abrilfs.github.io/GoogleClone/index.html" target="_blank" class="btn btn-eye btn-outline-dark" ><i class="bi bi-eye-fill"></i></a>
+        <a href="https://github.com/AbrilFS/GoogleClone" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
       </div>
     </div>
-
-    <div class="col-md-4 mb-4">
-      <div class="card h-100">
-        <img src="./css/img/capt2.png" class="card-img-top" alt="img2">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Google Clone</h5>
-          <span class="badge bg-dark">HTML</span>
-          <span class="badge bg-dark">CSS</span>
-          <p class="card-text">In this course, I made a Google Homepage Clone and the web layout of an online shop using Responsive Design.</p>
-          <a href="https://abrilfs.github.io/GoogleClone/index.html" target="_blank" class="btn btn-eye btn-outline-dark" ><i class="bi bi-eye-fill"></i></a>
-          <a href="https://github.com/AbrilFS/GoogleClone" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-      <div class="card h-100">
-        <img src="./css/img/capt3.png" class="card-img-top" alt="img3">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Music Store</h5>
-          <span class="badge bg-dark">HTML</span>
-          <span class="badge bg-dark">CSS</span>
-          <p class="card-text">I made a  design of a music web store using Bootstrap.
-            <br>
-            <br>
-            
-            <br>
-          </p>
-          <a href="https://github.com/AbrilFS/MusicStore" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-      <div class="card h-100" >
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">API Michis</h5>
-          <span class="badge bg-dark">HTML</span>
-          <span class="badge bg-dark">CSS</span>
-          <span class="badge bg-dark">JavaScript</span>
-          <p class="card-text">Currently working on an API, where you can see a collection of cats and save your favoutite image!</p>
-          <a href="https://github.com/AbrilFS/APIRest" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
-        </div>
-      </div>
-    </div>
-
-      </div>
-    </div>
-    
-
   </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="./css/img/capt3.png" class="card-img-top" alt="img3">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Music Store</h5>
+        <span class="badge bg-dark">HTML</span>
+        <span class="badge bg-dark">CSS</span>
+        <p class="card-text">I made a  design of a music web store using Bootstrap.
+          <br>
+          <br>
+          
+          <br>
+        </p>
+        <a href="https://github.com/AbrilFS/MusicStore" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="card h-100" >
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">API Michis</h5>
+        <span class="badge bg-dark">HTML</span>
+        <span class="badge bg-dark">CSS</span>
+        <span class="badge bg-dark">JavaScript</span>
+        <p class="card-text">Currently working on an API, where you can see a collection of cats and save your favoutite image!</p>
+        <a href="https://github.com/AbrilFS/APIRest" target="_blank" class="btn btn-repo btn-outline-dark">View Github Repo</a>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+  
+
+</div>
 
 </section>
 
@@ -197,17 +209,23 @@
 
 <!--Footer-->
 <footer id="footer" class="pb-2 pt-2">
-  <div class="container d-sm-flex justify-content-center">
-    <div class="row">
-     <p class="footer-text text-white">
-      © Copyright 2023.Abrilnzky </p>
-    </div>
+<div class="container d-sm-flex justify-content-center">
+  <div class="row">
+   <p class="footer-text text-white">
+    © Copyright 2023.Abrilnzky </p>
   </div>
+</div>
 </footer>
 
 <!--/Footer-->
 
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!--Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</div>
+
+</div>
+
+
 </body>
 </html>
